@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Plant = () => {
-    return ( 
-        <div>
+class Plant extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {  }
+    }
+    render() { 
+        return ( 
+            <div>
 
-        </div>
-    );
+            </div>
+        );
+    }
 }
  
 export default Plant;
